@@ -1,12 +1,20 @@
 {
-  "name": "drag-and-drop",
+  "name": "DRAG-AND-DROP",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Understanding TypeScript Course",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Lucas Da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "lite-server": "^2.5.4",
+    "typescript": "^5.4.5"
+  }
 }
