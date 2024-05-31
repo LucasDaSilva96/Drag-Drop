@@ -4,7 +4,8 @@
   "description": "Understanding TypeScript Course",
   "main": "app.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.production.js"
   },
   "keywords": [
     "typescript",
@@ -14,7 +15,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.13",
+    "clean-webpack-plugin": "^4.0.0",
     "lite-server": "^2.5.4",
-    "typescript": "^5.4.5"
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
